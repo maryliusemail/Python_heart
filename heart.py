@@ -272,7 +272,7 @@ if __name__ == '__main__':
 
     def start_animation():
         draw(root, canvas, heart, matrix)
-        Label(root, text="妈妈节日快乐!!\n - Mary", bg="black", fg="#FF99CC", font="Helvetica 20 bold").place(
+        Label(root, text="Happy Mother's Day!", bg="black", fg="#FF99CC", font="Helvetica 20 bold").place(
             relx=.2, rely=.2, anchor=CENTER)
 
     show_countdown(canvas, lambda: fade_in_to_heart(canvas, heart, matrix, root))
